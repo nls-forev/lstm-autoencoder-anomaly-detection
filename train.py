@@ -9,7 +9,7 @@ from torch.optim.lr_scheduler import CosineAnnealingLR
 from .model import LSTMAutoencoder
 
 root_dir = Path(
-    "/run/media/klasta/New Volume/Apps/Datasets/UCI House Power Consumption"
+    "./dataset"
 )
 txt_file = root_dir / "household_power_consumption.txt"
 df = pd.read_csv(txt_file, sep=";", na_values="?", low_memory=False)
