@@ -16,7 +16,7 @@ reconstruction error.
 - Decoder: LSTM initialized from encoder state
 - Output: per-timestep reconstruction
 
-![LSTM Autoencoder Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAE_Basic.png/330px-VAE_Basic.png)
+!<img src="[https://raw.githubusercontent.com/USERNAME/REPO/main/images/architecture.png](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAE_Basic.png/330px-VAE_Basic.png)" width="900">
 
 ## Dataset
 Household Electric Power Consumption (UCI).
@@ -31,5 +31,6 @@ error for out-of-distribution windows.
 2. Create sliding windows
 3. Train autoencoder
 4. Plot reconstruction error
+
 
 
