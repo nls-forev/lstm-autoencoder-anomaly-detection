@@ -16,6 +16,8 @@ reconstruction error.
 - Decoder: LSTM initialized from encoder state
 - Output: per-timestep reconstruction
 
+![LSTM Autoencoder Architecture](https://en.wikipedia.org/wiki/File:VAE_Basic.png)
+
 ## Dataset
 Household Electric Power Consumption (UCI).
 One feature: Global_active_power.
@@ -24,10 +26,9 @@ One feature: Global_active_power.
 The model learns normal patterns and produces high reconstruction
 error for out-of-distribution windows.
 
-![Reconstruction Error](results/reconstruction_error.png)
-
 ## How to Run
 1. Download dataset from UCI
 2. Create sliding windows
 3. Train autoencoder
 4. Plot reconstruction error
+
