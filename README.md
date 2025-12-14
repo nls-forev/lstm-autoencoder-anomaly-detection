@@ -16,7 +16,9 @@ reconstruction error.
 - Decoder: LSTM initialized from encoder state
 - Output: per-timestep reconstruction
 
-<img src="[https://raw.githubusercontent.com/USERNAME/REPO/main/images/architecture.png](https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAE_Basic.png/330px-VAE_Basic.png)" width="900">
+<img src="[https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/VAE_Basic.png/330px-VAE_Basic.png]" width="900">
+<!-- ![LSTM Autoencoder Architecture](images/architecture.png) -->
+
 
 ## Dataset
 Household Electric Power Consumption (UCI).
